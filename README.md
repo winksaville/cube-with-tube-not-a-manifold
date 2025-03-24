@@ -1,5 +1,8 @@
 # Cube-with-tube-not-a-manifold
 
+ATM, the Cargo.toml file assumes csgrs is located at ../csgrs.
+I did this to test is_manifold from csgrs.
+
 Create a 10mm cube with 4mm square tube and is_manifold fails:
 ```
 $ cargo run
